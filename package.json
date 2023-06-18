@@ -8,10 +8,16 @@
     "logs": "heroku logs -t",
     "heroku-postbuild": "cd src/client && npm install && npm run build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "call-bind": "^1.0.2",
+    "concurrently": "^8.0.1",
+    "ethers": "^6.4.0",
+    "get-intrinsic": "^1.2.1",
+    "react-router-dom": "^6.11.1"
+  },
   "engines": {
     "node": ">=12.16.1",
     "npm": ">=6.13.4"
-  },
-  "devDependencies": {}
+  }
 }

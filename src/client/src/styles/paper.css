@@ -1,0 +1,95 @@
+.paper
+{
+    margin: 1vw;
+    height: 101px;
+    width: 95%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.paperContent
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.downloadButton
+{
+    width: 7.5%;
+    height: 40%;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #0066FF;
+    margin-right: 55px;
+}
+
+.downloadButton:hover {
+    background-color: #3586ff;
+}
+
+.votesSection {
+    border-radius: 8px;
+    padding: 2px;
+    text-align: center;
+}
+
+.voteButtonL, .voteButtonD {
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 90px;
+    height: 20px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #0066FF;
+    cursor: pointer;
+}
+
+.voteButtonL:hover {
+    transition: 0.4s;
+    background-color: #27ffa1;
+}
+
+.voteButtonD:hover {
+    transition: 0.4s;
+    background-color: #ff4b27;
+}
+
+.download
+{
+    width: 50%;
+    cursor: pointer;
+}
+.paperHeader
+{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataAboutFile {
+    margin-left: -80px;
+
+}
+
+.number
+{
+    background-color: #E4E4E4   ;
+    color: #0066FF;
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.points
+{
+    margin: 2px;;
+}
+
+.fileIcon {
+    margin-left: -18px;
+    margin-bottom: 20px;
+}

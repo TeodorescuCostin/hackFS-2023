@@ -1,0 +1,187 @@
+
+
+
+.orderByBibiloaca
+{
+  font-size: 13px;
+  width: 150px;
+  height:40px;
+  font-weight: 700;
+    accent-color: #E4E4E4;
+    margin-right: 5px;
+    border: auto;
+    border-radius: 5px;
+    background-color: #0066FF;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+.uploadSection{
+    max-width: 370px;
+    min-width: 370px;
+    max-height: 50px;
+    min-height: 50px;
+    background-color: #E4E4E4;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.fileInputButton {
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fileInputButton input[type="file"] {
+    display: none;
+  }
+  
+
+  .file {
+    transition: all .35s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .file > input[type='file'] {
+    display: none
+  }
+  
+  .file > label {
+    transition: all .35s;
+    height: 8px;
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+    outline: 0;
+    user-select: none;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 29%);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .file > label:hover {
+    border-color: transparent;
+  }
+  
+  .file > label:active {
+    background-color: hsl(0, 0%, 96%);
+  }
+  
+  .file > label > i {
+    padding-right: 5px;
+  }
+  
+  .file--upload > label {
+    color: #0066FF;
+    border-color: transparent;
+  }
+  
+  .file--upload > span
+  {
+    opacity: 1;
+    visibility: visible;
+    transition: all .35s;
+  }
+  .file--upload > label:hover {
+    background: #3586ff;
+    color: #fff;
+    transition: all .35s;
+  }
+  
+  .file--upload > label:active {
+    background-color: hsl(204, 86%, 91%);
+  }
+  .file--success > label {
+    color: hsl(141, 71%, 48%);
+    border-color: hsl(141, 71%, 48%);
+  }
+  
+  .file--success > label:hover {
+    border-color: hsl(141, 71%, 48%);
+    background-color: hsl(141, 71%, 96%);
+  }
+  
+  .file--success > label:active {
+    background-color: hsl(141, 71%, 91%);
+  }
+  
+  @keyframes pulse {
+    0% {
+      color: hsl(48, 100%, 67%);
+    }
+    50% {
+      color: hsl(48, 100%, 38%);
+    }
+    100% {
+      color: hsl(48, 100%, 67%);
+    }
+  }
+
+
+
+  .wrapper{
+    width: 100px;
+    height: 100%;
+  }
+  
+  .wrapper button{
+    margin:0;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    width: 100px;
+    height: 40px;
+    line-height: 1;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 1px solid #0066FF;
+    background: #fff;
+    color: #0066FF;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s;
+  }
+
+  
+  .wrapper button:hover{
+    background: #3586ff;
+    color: #fff;
+  }
+  
+  .wrapper button span{
+    opacity: 1;
+    visibility: visible;
+    transition: all .35s;
+  }
+    
+  .wrapper button.is_active{
+    width: 40px;
+    height: 40px;
+  }
+  
+

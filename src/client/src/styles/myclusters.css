@@ -1,0 +1,111 @@
+.clustersDiv
+{
+    min-height: 410px;
+    margin:0;
+    width: 80%;
+    padding: 2px;
+    background-color: #E4E4E4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBarCluster
+{
+    width: 192px;
+    height: 35px;
+    border: auto;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #FFFFFF;
+    border: 1.7px solid #0066FF;
+    color: #0066FF;
+}
+
+.searchBarCluster::placeholder{
+    color: #0066FF;
+}
+
+.joinButton
+{
+    font-weight: 700;
+    accent-color: #E4E4E4;
+    border: auto;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #0066FF;
+    border-color: transparent;
+    color: white;
+    width: 84px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.joinButton:hover {
+    background-color: #3586ff;
+}
+
+
+.bin
+{
+    width:30%;
+}
+.binButton
+{
+    width:30%;
+}
+
+.binButton
+{
+    height: 100%;
+    border-radius:  0px 3px 3px 0px;
+    border-color: transparent;
+    background-color: #0066FF;
+}
+
+.binButton:hover {
+    background-color: #3586ff;
+    cursor: pointer;
+}
+
+.cluster
+{
+    background-color: #FFFFFF;
+    margin-top:5px;
+    border: 1.7px solid #0066FF;
+    border-radius:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 40px;
+}
+.clusterId
+{
+    color:#0066FF;
+    font-size: 15px;
+}
+h3{
+    padding-left:10px;
+}
+
+.clusters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .clusters {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.clusters
+{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    height:200px;   
+    width:100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

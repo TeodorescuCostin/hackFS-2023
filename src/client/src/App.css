@@ -1,28 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 30vmin;
-  pointer-events: none;
-}
-
-.Node-logo {
-  height: 30vmin;
-  pointer-events: none;
-}
-
-.logo-box {
-  padding-right: 4rem;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
 body {
-  background-color: #d7fffd;
+  background-color: #ffffff;
 }
 
 @media (prefers-reduced-motion: no-preference) {

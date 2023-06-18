@@ -1,0 +1,39 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 30px;
+    height: 50px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.signUpButton {
+    margin-right: 18px;
+    color: #FFFFFF;
+    background-color: #0066FF;
+    border-color: transparent;
+    width: 100px;
+    height: 36px;
+    border-radius: 9px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signUpButton:hover {
+    background-color: #E4E4E4;
+    color: #0066FF;
+    transition: 0.69s;
+}

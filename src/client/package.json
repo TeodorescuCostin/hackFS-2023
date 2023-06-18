@@ -3,12 +3,26 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@web3-react/core": "^8.2.0",
+    "axios": "^1.4.0",
+    "ethers": "^5.7.2",
+    "ipfs-http-client": "^56.0.2",
+    "js-sha3": "^0.8.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-router-dom": "^6.11.1",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "3.4.0",
+    "react-spinners": "^0.13.8",
+    "web3": "^1.10.0"
   },
   "scripts": {
     "start": "react-scripts start",

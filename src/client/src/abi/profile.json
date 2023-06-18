@@ -1,0 +1,119 @@
+[
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "name": "nickName",
+          "type": "string"
+        },
+        {
+          "name": "profilePicture",
+          "type": "string"
+        }
+      ],
+      "name": "createAccount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "nickName",
+          "type": "string"
+        },
+        {
+          "name": "profilePicture",
+          "type": "string"
+        }
+      ],
+      "name": "createTokenURI",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "profilePicture",
+          "type": "string"
+        },
+        {
+          "name": "nickName",
+          "type": "string"
+        }
+      ],
+      "name": "addUser",
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "nickname",
+          "type": "string"
+        },
+        {
+          "name": "clusterId",
+          "type": "string"
+        }
+      ],
+      "name": "addClusterId",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getUsersForWallet",
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ]
+  

@@ -1,0 +1,25 @@
+.header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userSettings
+{
+    height: 30%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userPic
+{
+    display: block;
+    width: 50%;
+}
+.logo
+{
+    width: 50%;
+}

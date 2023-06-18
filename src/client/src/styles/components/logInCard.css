@@ -1,0 +1,182 @@
+.loginCardContainer {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 15px;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.logInHead {
+    color: #0066FF;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 18px;
+    margin-bottom: 30px;
+}
+
+.buttonsContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttonMetamask {
+    background-color: #ffcd9e;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    width: 325px;
+    height: 55px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+}
+
+.buttonMetamask:hover {
+    background-color: #fea654;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.69s;
+}
+
+.metamaskLogo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    right: 5px;
+}
+
+.buttonCoinbase {
+    background-color: #A4C1FF;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    width: 325px;
+    height: 55px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+}
+
+.buttonCoinbase:hover {
+    background-color: #6898ff;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.69s;
+}
+
+.coibaseLogo {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    right: 5px;
+}
+
+.buttonNextStep {
+    background-color: #E4E4E4;
+    color: #0066FF;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    width: 115px;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+}
+
+.buttonNextStep:hover {
+    background-color: #0066FF;
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.69s;
+}
+
+.pendingContainer{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.accountDetails {
+    color: #0066FF;
+    font-weight: 700; 
+    font-size: 14px; 
+}
+
+
+
+
+
+
+
+
+.downloadContainer {
+    background-color: #1B1B1B;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.sectionDescription {
+    color: #0066FF;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.sectionRow {
+    display: flex;
+    background-color: #E4E4E4;
+    border-radius: 15px;
+    padding-left: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 13px;
+
+}
+
+.buttonsDownload {
+    background-color: #1B1B1B;
+    color: #0066FF;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: #1B1B1B;
+    cursor: pointer;
+    margin: 7px;
+    display: inline;
+    
+}
+
+.buttonsDownload:hover {
+    background-color: #0066FF;
+    color: #E4E4E4;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: #0066FF;
+}
+
+.icon {
+    font-size: large;
+    margin-right:   15px;
+}
+
+.name {
+    color: #0066FF;
+    font-size: large;
+    font-weight: 700;
+    margin-right: 35px;
+}
