@@ -1,4 +1,4 @@
-# Scepter
+# Definity
 
 In local dev, the React dev server & Node server are run side by side, with API calls [proxied](https://create-react-app.dev/docs/proxying-api-requests-in-development/) through the React dev server to the Node server. In production, the Node app will serve both the static React production build and the API.
 
